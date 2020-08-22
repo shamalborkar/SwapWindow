@@ -1,0 +1,27 @@
+.homestyle{
+    height: 510px;
+    width: 1360px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.homestyle img{
+    width: 100%;
+    height: 100%;
+}
+
+.homestyle .btn{
+    position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
