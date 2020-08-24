@@ -27,7 +27,7 @@ export default class extends Component {
     let fields = this.state.fields;
     fields[e.target.name] = e.target.value;
     this.setState({
-      fields
+    fields
     });
 
   }
@@ -122,7 +122,7 @@ export default class extends Component {
   render() {
     return(
       <React.Fragment>
-       <div>
+      <div>
       <img src={img} alt="not found" id="image"/>
       </div>
       <div className="vehicle">
@@ -207,9 +207,9 @@ export default class extends Component {
          </tbody>
           </table>
           <button
-            className="btn btn-danger btn-width-200"
-            onClick={this.submitVehicleRegistrationForm}
-                      >NEXT</button>     
+          className="btn btn-danger btn-width-200"
+          onClick={this.submitVehicleRegistrationForm}
+          >NEXT</button>     
       </Form>
     </div>
   </ React.Fragment>

@@ -17,7 +17,7 @@ function feedback()
                     >
                     </textarea>
                     <div className="image">
-            <       img src={img} alt="not found" />
+                    <img src={img} alt="not found" />
                     </div>
                 </div>
                 <br />

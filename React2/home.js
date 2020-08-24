@@ -7,16 +7,14 @@ import {Link} from "react-router-dom";
 function Home() {
 return( 
         <React.Fragment>
-        <div className="homestyle">
-            <img src={img} alt="not found" />
-          </div>
-          <div className="button">
+           <div className="homestyle">
+           <img src={img} alt="not found" />
            <Link
            className="btn btn-danger btn-width-200 search-submit"
            to={{ pathname: "/add-employee" }}
-         >NEXT</Link>  
-         </div> 
-         </React.Fragment>   
+           >NEXT</Link>  
+           </div> 
+        </React.Fragment>   
     );
 };
   export default Home;

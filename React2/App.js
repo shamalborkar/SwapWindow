@@ -11,15 +11,13 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-     <Main />
-     <Switch>
-     <Route path="/home" component={Home} />
-     <Route path="/add-employee" component={AddEmployee} />
-     <Route path="/vehicleDetails" component={vehicleDetails} />
-     <Route path="/feedback" component={feedback} />
-     <Route path="/price" component={price} />
-
-
+    <Main />
+    <Switch>
+    <Route path="/home" component={Home} />
+    <Route path="/add-employee" component={AddEmployee} />
+    <Route path="/vehicleDetails" component={vehicleDetails} />
+    <Route path="/feedback" component={feedback} />
+    <Route path="/price" component={price} />
     </Switch>
     </div>
     </BrowserRouter>
