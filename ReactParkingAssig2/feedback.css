@@ -1,0 +1,17 @@
+.feedback{
+    text-align: center;
+    padding-top: 10px;
+    height: auto;
+        }
+    .image{
+    height: 300px;
+    width: 1300px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
